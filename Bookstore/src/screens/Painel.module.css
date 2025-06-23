@@ -1,0 +1,62 @@
+.painelContainer {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.menuLateral {
+  width: 220px; /* um pouco menor */
+  background-color: #444444; /* cinza escuro */
+  color: #ddd; /* cinza claro */
+  padding: 15px; /* menor padding */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tituloMenu {
+  font-size: 20px; /* menor */
+  margin-bottom: 20px;
+  color: #ddd; /* cinza claro */
+}
+
+.menuLateral ul {
+  list-style: none;
+  padding: 0;
+}
+
+.linkMenu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px; /* menor padding */
+  margin-bottom: 8px; /* menor margem */
+  color: #ccc; /* cinza intermediário */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.linkMenu:hover {
+  background-color: #666666; /* cinza médio no hover */
+  color: #eee; /* quase branco no hover */
+}
+
+.icone {
+  font-size: 1.1em; /* levemente menor */
+}
+
+.conteudo {
+  flex: 1;
+  background-color: #ffffff; /* fundo branco */
+  padding: 30px; /* menos padding */
+  color: #333333; /* texto escuro para contraste */
+}
+
+.conteudo h1 {
+  font-size: 24px; /* menor */
+  color: #222222;
+}
+
+.conteudo p {
+  color: #555555; /* texto cinza escuro */
+  margin-top: 10px;
+}
